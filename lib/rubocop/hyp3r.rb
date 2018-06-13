@@ -12,6 +12,7 @@ end
 require 'rubocop/hyp3r/inject'
 require 'rubocop/hyp3r/version'
 
+require_relative 'cop/grape/empty_request_path'
 require_relative 'cop/grape/status_no_content'
 
 RuboCop::Hyp3r::Inject.defaults!
