@@ -1,4 +1,4 @@
-require 'rubocop'
+require 'rubocop/hyp3r/version'
 
 module RuboCop
   module Hyp3r
@@ -8,11 +8,3 @@ module RuboCop
     private_constant(:CONFIG_DEFAULT, :PROJECT_ROOT)
   end
 end
-
-require 'rubocop/hyp3r/inject'
-require 'rubocop/hyp3r/version'
-
-require_relative 'cop/grape/empty_request_path'
-require_relative 'cop/grape/status_no_content'
-
-RuboCop::Hyp3r::Inject.defaults!

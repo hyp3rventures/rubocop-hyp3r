@@ -1,7 +1,7 @@
 require 'pry'
 require 'rubocop'
 require 'rubocop/rspec/support'
-require 'rubocop/hyp3r'
+require 'rubocop-hyp3r'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
